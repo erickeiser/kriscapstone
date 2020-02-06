@@ -248,6 +248,10 @@ img.social {
     max-width: 100%;
     margin-left: 0px;
   }
+  .contact-logo img {
+    max-width: 220px;
+    margin-left: 155px;
+  }
 
   .about-img {
     display: none;
@@ -287,8 +291,8 @@ section#contact {
   .about-img {
     display: none;
   }
-  .contact-logo img {
-    margin-left: 190px;
+  .contact-logo {
+    display: none;
   }
   .knowMe {
     text-align: center;
