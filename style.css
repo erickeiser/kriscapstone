@@ -1,17 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Forum', cursive;
-    
+  margin: 0;
+  padding: 0;
+  font-family: "Forum", cursive;
 }
 
-html{
-  scroll-behavior: smooth; 
-  
+html {
+  scroll-behavior: smooth;
 }
 body {
   background-color: #333;
-
 }
 
 .container-fluid {
@@ -19,12 +16,9 @@ body {
   margin: 0 0 0 0;
 }
 
-
-
-
 /* TOP */
 #top {
-  background-color: #C2A39A;
+  background-color: #c2a39a;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -33,24 +27,24 @@ body {
   max-width: 100%;
 }
 
- img.myImage {
+img.myImage {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 150px;
   max-height: 450px;
   border-radius: 25px;
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.5);
 }
 .info {
   margin: 150px 0 0 100px;
 }
 .info h1 {
   font-size: 4.5rem;
-  
 }
 
 .home-logo {
   height: 90px;
-  background-color: #77B1B6;
+  background-color: #77b1b6;
 }
 
 .home-logo-img {
@@ -60,9 +54,11 @@ body {
 
 /* ABOUT ME SECTION */
 #about {
-  background-color: #ABCED2;
+  background-color: #abced2;
 }
-.aboutMe, .port, .contactMe {
+.aboutMe,
+.port,
+.contactMe {
   font-size: 4.5rem;
   text-align: center;
 }
@@ -76,12 +72,11 @@ body {
 }
 .about-logo-img {
   height: 90px;
-  margin: 0 35% ;
+  margin: 0 35%;
 }
 .about-logo {
   text-align: center;
   height: 90px;
-  
 }
 .about-img {
   height: 90px;
@@ -96,17 +91,14 @@ ul li {
   list-style: none;
 }
 
-
-
-img.social  {
+img.social {
   padding: 15px;
   height: 75px;
 }
 
- .linkedin {
+.linkedin {
   margin-right: 100px;
   float: right;
-  
 }
 .git {
   float: left;
@@ -115,15 +107,12 @@ img.social  {
 
 /*  PORTFOLIO SECTION */
 #portfolio {
-  background-color: #EFD1CC;
+  background-color: #efd1cc;
   padding-bottom: 100px;
-  
 }
 #portfolio h1 {
   text-align: center;
 }
-
-
 
 .wrapper {
   display: grid;
@@ -133,7 +122,7 @@ img.social  {
   padding: 50px;
 }
 .wrapper .grid-item {
-  transition: .8s;
+  transition: 0.8s;
 }
 .grid-item img {
   width: 100%;
@@ -143,7 +132,7 @@ img.social  {
 }
 .wrapper .grid-item:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
-  transition: .8s;
+  transition: 0.8s;
 }
 
 /*  CONTACT SECTION */
@@ -151,14 +140,14 @@ img.social  {
   text-align: center;
 }
 #contact {
-  background-color: #F0B5AD;
+  background-color: #f0b5ad;
   overflow: hidden;
 }
 .contact-logo img {
   height: 90px;
   margin-left: 125px;
 }
-#contact .contact-logo{
+#contact .contact-logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #77b1b6;
@@ -166,67 +155,70 @@ img.social  {
   width: 100vw;
   margin-top: 35px;
 }
-.contact-container{
-    box-sizing: border-box;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
+.contact-container {
+  box-sizing: border-box;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
 }
-.company-info{
+.company-info {
   background: #86c0c7;
 }
-.company-info h3{
+.company-info h3 {
   text-align: center;
 }
-.company-info ul{
+.company-info ul {
   list-style: none;
   padding: 0;
   text-align: center;
 }
-.brand{
+.brand {
   text-align: center;
 }
-.contact-wrapper{
+.contact-wrapper {
   box-shadow: 0 0 20px 0 rgba(26, 47, 65, 0.7);
 }
-.contact-wrapper > *{
+.contact-wrapper > * {
   padding: 1em;
 }
-.contact{
+.contact {
   background: #f9feff;
 }
-.contact form{
+.contact form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
-.contact form label{
+.contact form label {
   display: block;
 }
-.contact form p{
+.contact form p {
   margin: 0;
 }
-.contact form .full{
+.contact form .full {
   grid-column: 1 / 3;
 }
-.contact form button, .contact form input, .contact form textarea{
+.contact form button,
+.contact form input,
+.contact form textarea {
   width: 100%;
   padding: 1em;
   border: 1px solid #86c0c7;
 }
-.contact form button{
+.contact form button {
   background: #86c0c7;
   border: 0;
   text-transform: uppercase;
 }
-.contact form button:hover, .contact form button:focus{
+.contact form button:hover,
+.contact form button:focus {
   background: #92bde7;
-  color:#fff;
-  outline:0;
+  color: #fff;
+  outline: 0;
   transition: background-color 2s ease-out;
 }
-.alert{
+.alert {
   text-align: center;
   padding: 10px;
   background: #79c879;
@@ -235,15 +227,8 @@ img.social  {
   display: none;
 }
 
-
-
-  
-
-
-
 /* MEDIA QUERIES    */
 @media only screen and (max-width: 768px) {
-  
   img.myImage {
     margin: 65px 0 0 0;
     padding: 0 0 0 0;
@@ -253,7 +238,7 @@ img.social  {
   }
   .info h1 {
     margin-top: 15px;
-    font-size: 3.0rem;
+    font-size: 3rem;
   }
 
   .info p {
@@ -264,35 +249,59 @@ img.social  {
     margin-left: 0px;
   }
 
-  
+  .about-img {
+    display: none;
+  }
+}
+
+section#about {
+  background-color: #abced2;
+}
+section#portfolio {
+  background-color: #f0d1cc;
+}
+section#contact {
+  background-color: #f0b5ad;
+}
+
+@media only screen and (min-width: 768px) {
+  #top {
+    padding-bottom: 30px;
+  }
+  .info {
+    margin: 0px;
+  }
+  .info h1 {
+    margin-top: 5em;
+    font-size: 3rem;
+  }
+
+  .info p {
+    text-align: center;
+  }
+  .home-logo-img {
+    max-width: 100%;
+    margin-left: 190px;
+  }
 
   .about-img {
     display: none;
   }
-  
-
-
-  
- 
-
+  .contact-logo img {
+    margin-left: 190px;
+  }
+  .knowMe {
+    text-align: center;
+    
+  }
 }
 
-
-  
-
-  
-
-
-
-
-
-section#about{
+section#about {
   background-color: #abced2;
 }
-section#portfolio{
+section#portfolio {
   background-color: #f0d1cc;
 }
-section#contact{
+section#contact {
   background-color: #f0b5ad;
 }
-
